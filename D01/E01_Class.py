@@ -1,4 +1,5 @@
 class Dog:
+    __slots__ = ('name', 'age')
     dog_type = '边牧'
 
     def __init__(self, name=None):
@@ -9,5 +10,7 @@ class Dog:
 
 
 d = Dog('哮天犬')
+d.age = 10
+d.address = "beijing"
 d.print_name()
 print(d.name)
