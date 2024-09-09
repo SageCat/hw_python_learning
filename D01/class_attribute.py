@@ -1,6 +1,6 @@
 class MyClass:
-    # 这是一个类属性
     __slots__ = ['name']
+    # 这是一个类属性
     class_attribute = "I am a class attribute"
     class_attribute_second = "I am second class attribute"
 
